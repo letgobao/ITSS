@@ -9,7 +9,7 @@ const Profile = () => {
         <div className='profile-content'>
             <div className="profile-left">
                 <div className="user-img">
-                    <img src={Avatar} style={{width: '107px', height: '110px', margin: '2px 10px'}}/>
+                    <img src={Avatar} />
                 </div>
                 <button>プロフィールを変更する</button>
             </div>

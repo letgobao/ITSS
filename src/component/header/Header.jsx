@@ -16,7 +16,7 @@ const Header = () => {
                 <span>23BKA1234</span>
             </div>
             <div className="avatar">
-                <img src={UserAvatar} style={{width:'40px', height: '40px', margin: '3px 5px'}}/>
+                <img src={UserAvatar}/>
             </div>
         </div>
     </div>
