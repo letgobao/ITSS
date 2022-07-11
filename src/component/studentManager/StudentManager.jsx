@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import Select from "react-select";
+import MySelect from '../Select/MySelect'
 import Input from "../input/Input";
 import StudentCard from "../studentCard/StudentCard";
 import Filter from "../../img/filter.svg";
@@ -29,8 +29,8 @@ const StudentManager = () => {
   return (
     <div className='student-manager'>
       <div className='tools'>
-        <Input />
-        <Select options={data} placeholder='GPA' />
+        <Input/>
+        <MySelect source={data} placeholder='GPA' />
         <img src={Filter} alt='' />
       </div>
       <div className='student-list'>

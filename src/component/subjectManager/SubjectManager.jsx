@@ -1,9 +1,8 @@
 /** @format */
 
 import React from "react";
-import AddAndSearch from "../addAndSearch/AddAndSearch";
 import List from "../List/List";
-
+import Input from "../input/Input";
 import "./SubjectManager.css";
 
 const SubjectManager = () => {
@@ -74,7 +73,10 @@ const SubjectManager = () => {
   ];
   return (
     <div className='subject-manager'>
-      <AddAndSearch />
+      <div className='add-search'>
+        <button>追加</button>
+        <Input/>
+      </div>
       <List lists={subjects} special={[2]} ratio='5% auto 21%  18% 14%'/>
     </div>
   );
